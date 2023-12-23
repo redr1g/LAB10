@@ -7,8 +7,8 @@ import lombok.Getter;
 import lombok.SneakyThrows;
 
 public class DataConnection {
-    private static final String JDBC_DRIVER = "org.sqlite.JDBC";
-    private static final String DATABASE_URL = "jdbc:sqlite:C:/sqlite/database/redrig";
+    private static String JDBC_DRIVER = "org.sqlite.JDBC";
+    private static String DATABASE_URL = "jdbc:sqlite:C:/sqlite/database/redrig";
 
     private static DataConnection instance;
 
